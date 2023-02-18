@@ -1,0 +1,12 @@
+{
+    "name": "morning-trend-strategy",
+    "version": "1.0.0",
+    "description": "Backtesting morning trend strategy on NSE stocks",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "aman9723 <amansingh9723chauhan@gmail.com>",
+    "license": "ISC"
+}
