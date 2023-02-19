@@ -151,7 +151,7 @@ jsonFiles = jsonFiles.filter((fileName) => fileName.includes('data.json'));
 jsonFiles.forEach((fileName) => {
     data = JSON.parse(fs.readFileSync(fileName, { encoding: 'utf-8' }));
     capital = 1000;
-    backtest('2021-02-02 09:15:00+05:30', '2022-10-02 09:15:00+05:30');
+    backtest('2015-02-02 09:15:00+05:30', '2022-02-02 09:15:00+05:30');
     fs.appendFileSync(
         'Results.txt',
         `${fileName.split('_')[0]} - ${capital}\n`,
